@@ -1,0 +1,1 @@
+docker run --mount type=bind,source="$(pwd)",target="/data" pandoc/latex:2.6 --from markdown --to latex --output dockertest.pdf formula-collection.md
