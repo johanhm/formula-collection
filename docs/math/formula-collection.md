@@ -20,7 +20,7 @@ Derivatans defenition beskrivs av
 
 $$f'(x) = \frac{d}{dx}f(x) = \lim\limits_{h \to 0} \frac{f(x + h) - f(x)}{h} = \lim\limits_{y \to x} \frac{f(y) - f(x)}{y-x}$$
 
-## Räkneexempel
+### Räkneexempel
 
 Räkna ut derivatan med hjälp av derivatans defenition på utrycket
 
@@ -45,11 +45,13 @@ $$ 20x + 3 $$
 
 ### Deriveringsregler
 
-| Ändringskvot  | Derivata          |
-| ------------- | ----------------- |
-| $$ x^{p} $$   | $$ px^{p-1} $$    |
-| $$ sin(kx) $$ | $$ k sin(kx) $$   |
-| $$ cos(kx) $$ | $$ -k sin(kx) $$  |
-| $$ e^{kx} $$  | $$ ke^{kx} $$     |
-| $$ a^{x} $$   | $$ a^xln(a) $$    |
-| $$ ln(x) $$   | $$ \frac{1}{x} $$ |
+| Ändringskvot      | Derivata            |
+| ----------------- | ------------------- |
+| $$ x^{p} $$       | $$ px^{p-1} $$      |
+| $$ sin(kx) $$     | $$ k sin(kx) $$     |
+| $$ cos(kx) $$     | $$ -k sin(kx) $$    |
+| $$ e^{kx} $$      | $$ ke^{kx} $$       |
+| $$ a^{x} $$       | $$ a^xln(a) $$      |
+| $$ ln(x) $$       | $$ \frac{1}{x} $$   |
+| $$ kf(x) $$       | $$kf'(x) $$         |
+| $$ f(x) + g(x) $$ | $$ f'(x) + g'(x) $$ |
